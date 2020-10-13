@@ -28,6 +28,14 @@ void Inorder(Node *root){
 	Inorder(root->right);
 }
 
+void preorder(Node *root){
+	if(root==NULL)
+		return;
+	cout<<root->data<<" ";
+	preorder(root->left);
+	preorder(root->right);
+}
+
 int main(){
 	int n;
 	cin>>n;
@@ -60,4 +68,5 @@ int main(){
 	Inorder(root);
 	invert(root);
 	Inorder(root);
+	preorder(root);
 }
