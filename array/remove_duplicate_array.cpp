@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+/*#include<bits/stdc++.h>
 using namespace std;
 
 int *deleteArr(int *arr,int len){
@@ -25,3 +25,5 @@ int main(){
    }
    return 0;
 }
+*/
+  res=1/(float)(positiveExponent(basevalue,abs(exponentValue)));
